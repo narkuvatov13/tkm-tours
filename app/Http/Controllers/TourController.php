@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Tour;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Storage;
 
 class TourController extends Controller
 {
@@ -36,6 +37,7 @@ class TourController extends Controller
         // $request->validateAll();
 
         if ($request->tour_image) {
+
             $image = $request->tour_image->store('tour_images');
         }
 
@@ -76,6 +78,7 @@ class TourController extends Controller
 
         $tour = Tour::find($tour_id);
         if ($request->tour_image) {
+            Storage::delete($tour->tour_img);
             $tour->tour_img = $request->tour_image->store('tour_images');
         }
 

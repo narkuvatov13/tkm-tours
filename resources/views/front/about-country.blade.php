@@ -32,7 +32,7 @@
 
 
 {{-- Content --}}
-<main class="container p-10 mt-8">
+<main class="container p-10 mt-8 mx-auto">
 
     {{-- COUNTRY INFORMATION --}}
     <section class="country-information">
@@ -46,7 +46,7 @@
         <section class="country-geography">
             <div class="country-geography-content flex flex-col justify-center items-center md:flex-row md:gap-20">
                 <div class="country-geography__img h-full mb-3 md:w-1/2 flex justify-center items-center">
-                    <img class=" md:w-fit md:h-[32rem] object-contain shadow-md shadow-gray-600 rounded" src="{{asset('images/country_about/Turkmenistan-tourism-map-newest.webp')}}" alt="">
+                    <img src="{{asset('images/country_about/owadan-tourism-map-newest.webp')}}" class=" md:w-fit md:h-[32rem] object-contain shadow-md shadow-gray-600 rounded" alt="img_country">
                 </div>
                 <div x-data="{ isOpen: false }" class="country-geography-content__text md:w-1/2 select-none">
                     <h1 class="country-geography-content__text__header mb-5 text-3xl uppercase text-indigo-700 font-semibold underline-offset-4 underline">Geography</h1>
@@ -116,181 +116,52 @@
                             <div class="mb-4"></div>
                             <p class=" capitalize tracking-wider text-gray-200 select-none">
                                 Evidence of human life on the territory of present-day Turkmenistan started in the Paleolithic Era. Rock inscriptions can be seen in Jebel in the Krasnovodsk Peninsula, and various finds can be observed in the National Museum in Ashgabat. More extensive is the evidence of human settlements from the Neolithic and Eneolithic Eras: various sites in the foothills of the Kopetdag mountain range at Djeytun (near Ashgabat) and Anau (near Ashgabat) show evidence of early agricultural activity and village-like settlements.
-
-
-
                                 For those with a special interest in visiting these sites please contact us directly.
-
-
-
                                 The Bronze Age marked the beginning of several large oasis settlements with not only residential functions, but also ritual and burial sites, and with evidence of the existence of contacts with people from Indian, Bactrian and Mesopotamian civilizations. While remains of the Bronze Age settlement in Abiverd (near Kaahka) has largely been covered by settlements from later times, the oasis region of Margush at the previous Murghab river delta remains impressive evidence of the existence of a civilization that has recently been recognized as a fifth Bronze Age civilization next to Egypt, Mesopotamia, India and China. The civilization is referred to as the Bactrian-Margianian Civilization. Dozens of settlements from different time periods within the Bronze Age are spread around the territory where in ancient times the Murghab River flowed. Among these are Altyn Depe, Namazga Depe, Keleli, Togolok, and Ajikui.
-
-
-
                                 In the late Bronze Age life in the Murghab delta oasis declined and over the next centuries concentration of habitation shifted – with the shifting of the Murghab River flow - towards the area we now refer to as Merw, a city that reached the peak of its fame under the Seljuk Empire in the 10th century.
-
-
-
                                 The first recorded evidence of population settlements in the Merw area was found in the Behistun rock inscription in Iran which was created in the VI c. BC when most of present-day Turkmenistan was part of the Achaemenid Empire.
-
-
-
                                 Merv under the name of Aleksandria Margiana (Erk Kala or Iskander Kala) was included in the area conquered by Alexander the Great and mentioned by a number of Hellenistic and Roman authors. The Seleucids, Alexander’s successors, founded the second city of Merv (IV c. BC), known today as Gyaur Kala, which experts identify with Antiochia Margiana.
-
-
-
-                                The Seleucids and after them the Parthians and Sasanids developed Merv as administrative, cultural, trading and military center. After the battle of Carrhae thousands of Roman soldiers were sent to settle in Margiana. The Sassanid period was marked by religious tolerance and Sassanid Merv was a meeting point of many religions: Zoroastrianism, Judaism, Christianity, Buddhism, and Manichaeism. Under the later Sassanid kings Merv was a seat of a Christian archbishopric.
-
-
-
+                                The Seleucids and after them the Parthians and Sasanids developed Merv as administrative, cultural, trading and military center. After the battle of Carrhae thousands of Roman soldiers were sent to settle in Margiana. The Sassanid period was marked by religious tolerance and Sassanid Merv was a meeting point of many religions: Zoroastrianism, Judaism, Christianity, Buddhism, and Manichaeism. Under the later Sassanid kings Merv was a seat of a Christian archbishopric
                                 The Moslem Arabs conquered Merv in 651. They moved the city slightly to the west of the original site and made it the capital of Khorasan province. Along with Baghdad, Cairo and Damascus, it became one of the most important centers of Islam. In those days’ silk was being cultivated in Merv. After having been ruled by Arab khalifs, Merw was occupied by several feudal dynasties, such as the Persian Samanids and Turkic Ghaznevids.
-
-
-
                                 Merv’s greatest period of glory was under the rule of the Turkic Seljuks (XI-XII cc), who occupied Khorasan and defeated the Ghaznevids near Merv in 1040, establishing their regional eastern capital here. At this time Merv was called ‘The Jewel of the sands’, ‘the Queen of the east’, and Marw al- Shahijan ‘the Soul of Kings’.
-
-
-
                                 The Great Seljuk Empire extended from China to Syria and from the Oxus to Arabia. The Seljuks founded a group of dynasties in Persia, Syria and Asia Minor and were responsible for the construction of monumental buildings, notable for their elaborate ornamental brickwork and stucco decorations. They encouraged the arts, all kind of sciences, literature, and architecture. Seljuk Merv was like a magnet to many celebrated scholars, poets and writers, who worked in its legendary libraries and observatory. Among them was Yaqut al–Hanawi, who spent about three years in Merw collecting material for his geographical dictionary, and Omar Khayyam, who compiled his astronomical tables, the so-called Jalal al-Din Calendar, working in the Merv Observatory.
-
-
-
                                 The talent of Omar Khayyam flourished under Malik Shakh, who owed his reputation of being the greatest of the Seljuks’ sultans mostly to the wise government of his vizier Nizam ul-Mulk. In 1092 Malik Shakh died and the empire experienced a short period of instability. The high point of the Seljuk empire was under the rule of Sultan Sanjar (1118 - 1157) and his fame eclipsed even that of Malik Shakh.
-
-
-
                                 After the reign of Sultan Sanjar the power of the Seljuks began to wane. In 1221 the Mongols conquered Merv. They destroyed the city, burnt the libraries, demolished the dams and massacred the citizens. One chronicler estimated that 700,000 people were killed here. Merv never fully recovered from this disaster; however, the archeological excavations at Merv indicated that Merv was not completely abandoned after the Mongols.
-
-
-
                                 In the early fifteenth century the descendants of Emir Timur (Tamerlane) re-built the dams and founded a new urban center. However, Merw never got back its previous status of fame, as Emir Timur made Samarkand the capital of the Timurid Empire.
-
-
-
                                 In the 18th century Merv came under the rule of the emir of Bukhara and in the 19th century the emir of Khiva conquered it. However, the Turkmen Teke tribe drove out the troops of the emir in 1836 and remained in control of the area until the tsarist Russian armies annexed Merv in 1884.
-
-
-
                                 Remains of an important residential-ritual complex at Nissa dating from the second half of the III c. BC indicate the presence at the territory of present-day Turkmenistan of settlements from the time of the rise of the Parthian Empire.
-
-
-
                                 The Parthian empire, also known as the Arsacid Empire, was the most enduring of the empires of the ancient Near East. A lot of information about the Parthian empire was taken from Roman and Chinese historical chronicles, whereas the Parthians left relatively little recorded references.
-
-
-
                                 The first mention of Parthia we can find in Iran in the Behistun rock inscription by Dari Gistaspus. At that time Parthia was one of the satrapies of the Persian Achaemenid empire and later, after Alexander’s death – the Seleucids. In the middle of the 3d century B.C. a number of uprisings took place in Central Asia against the Hellenistic power and Parthia was the center of one of such uprisings. At the head of the biggest one was Arsaces I, who became the founder of the independent Parthian kingdom and the Arsacid dynasty.
-
                                 Mithridates I of Parthia (r. c. 171–138 BC) greatly expanded the empire by seizing Media and Mesopotamia from the Seleucids. At its height, the Parthian Empire stretched from the northern reaches of the Euphrates, in what is now eastern Turkey, to eastern Iran. The empire, located on the Silk Road trade route between the Roman Empire in the Mediterranean Basin and the Han Dynasty in China, quickly became a center of trade and commerce.
-
                                 The Parthians largely adopted the art, architecture, religious beliefs, and royal insignia of their culturally heterogeneous empire, which encompassed Persian, Hellenistic, and regional cultures.
-
                                 With the expansion of Arsacid power, the seat of central government shifted from Nissa, Turkmenistan to Ctesiphon along the Tigris (south of modern Baghdad, Iraq), although several other sites also served as capitals.
-
                                 Rome always clashed with Parthia, in particular about the control over Armenia and the Levant, considering it as the main obstacle on the Great Silk Road. In 53 B.C. the Roman general Crassus invaded Parthia. At Carrhae Crassus was beheaded by the Parthians. The Roman army was defeated and Roman prisoners were sent to settle in Margiana.
-
                                 However, the Romans launched a counterattack against Parthia and several Roman emperors invaded Mesopotamia during the Roman-Parthian Wars. However, frequent civil war between Parthian contenders to the throne proved more dangerous than foreign invasion, and Parthian power evaporated when Ardashir I, ruler of one of the Parthian vassal states, revolted against the Arsacids and killed their last ruler, Artabanus IV, in 224 AD. Ardashir established the Sassanid Empire, which ruled Iran and much of the Near East until the Muslim conquests of the 7th century AD, although the Arsacid dynasty lived on through the Arsacid Dynasty of Armenia.
-
                                 Another great empire that developed at the territory of what is today Turkmenistan, is in the region that was then called Khorezm. Kunya (Kone) Urgench was the capital of the Khorezm Empire.
-
-
-
                                 The city of Biruni and Avicenna, al Farabi and al Khorezmi was located on the caravan routes which lead to the Caspian Sea and Russia. The history of Kone Urgench is closely connected with the history of Khorezm, coming through several periods of flourishing and decays:
-
-
-
                                 Khwarezm, Khorezm, Chorasmia, Hualazimo as it is named by Persians, Chinese, Greeks and Arabs in different ancient reference works, are all names of one important historical region along the Amu-Darya River. The prosperity of Khorezm was built on intensive agriculture, animal husbandry and trade.
-
-
-
                                 Khorezm was subjected to the Achaemenid Empire for about two centuries, in the VI-V cc BC, Khorezmian stone was delivered to Persia for the construction of Achaemenid palaces. By the V-IV cc B.C. Khorezm became an independent region, at the head of which was a king or shah. His residence was at a palace at the left bank of the Amu Darya River.
-
-
-
                                 After a short period of subjugation to the Kushan Empire Khorezm again became independent. The residence of Khorezm shah was moved to the right bank of the Amu-Darya: according to al-Biruni the citadel of Kath was constructed there in 304 BC.
-
-
-
                                 Until the VII c, when the Arabs brought Islam into the Central Asian region, Khorezm maintained an authority of an independent country and experienced a mixed culture of religions - Zoroastrianism, Christianity, perhaps Judaism. In the X c. Khorezm was incorporated in the Samanid Empire.
-
-
-
                                 Under the Samanids Khorezm traded with the Khazaris that lived around the northern Caspian Coast and up the Volga River, and the variety of goods traded increased significantly. Dried fruit, sweets, broadcloth, carpets, brocade, boats, bows, arrows, falcons, castor oil, fish teeth etc. were available at the bazaars of Gurgandj. The residence of Samanid governor Mamun was located in Gurgandj (on the left bank of the Amu Darya River), which appeared as the northern capital of Khorezm, whereas the successors of the local Khorezm dynasty continued to reside in Kath. In 995 Mamun, who received the ancient title of Khorezmshah, was able to unite Khorezm, and Gurgandj became the only capital of the new Khorezmian state.
-
-
-
                                 In 1017 Khorezm was conquered by the Gaznevids. Then the Oguz Turks came. One of the first Oguz Turkic rulers, Alp Arslan, suppressed a local rebellion and Khorezm became one of the provinces of the Seljuk Empire. A new Anushtegin dynasty of Khorezmshahs was founded in the last years of the XI c. The founder of the new dynasty was Anush Tegin - an ex slave of the Seljuk emir, who obtained a high position under Malik Shakh, promoted himself and became a governor of Khorezm.
-
-
-
                                 By the XII c. Khorezm obtained independence from the Seljuks and became the largest empire of the Middle East with its capital in Gurgandj. It stretched from Iraq in the west till India in the east, from the Aral Sea in the north till the Indian Ocean in the south. After the Mongol invasion the Empire collapsed and the capital was destroyed.
-
-
-
                                 In the 15th c. Khorezm was controlled by the Khans of Golden Horde. At that time Khorezm became the wealthiest and culturally most developed province of the Golden Horde and Kone Urgench experienced its second flourishing.
-
-
-
                                 Ibn Batuta, a contemporary of Kutlug Timur and Turabek Khanym, visited Kone Urgench in 1333 and described it as “very beautiful, majestic and of considerable size with large and rich bazaars, wide streets and a lot of impressive buildings”.
-
-
-
                                 In 1395 the power of Golden Horde came to an end. After Tamerlane’s invasion the city was partly rebuilt, but abandoned when the Amu-Darya changed its course in the 16th century.
-
-
-
                                 It is clear that by far the largest number of historical sites on the territory of Turkmenistan date from the times of the Hellenistic, Parthian, Khorezmian and Seljuk empires, that thrived with the development of the Great Silk Road. Here’s a piece of history about that famous Road:
-
-
-
                                 The Great Silk Route, starting from the Chinese city of Ch’ang-an (modern-day Xi’an) and leading to the shores of the Mediterranean, spanning over Asia and Europe with a total length of 7,000 km, is history today. A history of more than 2,500 years. The formal starting date of the Silk Road is connected with the year 105 BC, when the Chinese arranged a fact-finding mission and started their trek to the west. Silk became the major commodity transported along this road. For centuries, Chinese kept the secret of its manufacture, banning to take silkworm eggs out of the country.
-
-
-
                                 This route from China to the West, one of the greatest trading routes in the world, was named “die Seidenstrasse”, the Silk Road, by the 19th century German explorer Baron Ferdinand von Richthofen.
-
-
-
                                 However, not only luxurious Chinese silk had been traveling along this road but also a great number of raw materials such as bronze and cobalt, Chinese porcelain, Venetian glass, Afghan jade, lapis lazuli and rubies, Iranian turquoise, tin and copper, Siberian furs, Arabian incense and perfumes, Indian cotton, heavenly horses, Mervian steel and melons, Egyptian papyrus and other luxuries, flowers and vegetables, moreover new thinking and ideas, arts, religions, modern technologies and other practical inventions. Some researchers suggest that the Parthian parchment inspired the Chinese to develop paper for writing, which replaced the previously used silk and bamboo.
-
-
-
                                 The Silk Road was not a single road. It was an unparalleled and very complicated network of routes. Its main branches skirted north and south of the Tarim basin across Central Asia and the Iranian plateau further to the west, meeting at Dunhuang at one end and Kashgar at the other. From Kashgar southbound traffic crossed the Karakoram; westbound the Tian Shan. From Sogdiana caravans could follow either the Oxus (Amu Darya) or the Jaxartes (Syr Darya), via Khorezm and its center of Kunya Urgench on the way to the Aral Sea and further to Russia.
-
-
-
                                 But the more popular branch was a southern route, taking travelers from Dunhuang across the inhospitable Taklamakan Desert (‘to come in and never come out’), Kizilkum Desert (‘Red sands’) and Karakum Desert (‘Black sands’) to the west. The city of Bactra (the capital of the Bactria region; present-day Balkh in northern Afghanistan), which perhaps is not so familiar to modern-day travelers, was roughly in the center of the Silk Road and was also the gateway to India.
-
-
-
                                 Bactra was one of the major centers of Buddhism in the time of the Kushan Empire; Buddhist influence can be found in the shape of a cave city called Ekedeshik on the Turkmen side of the border in the same geographical region.
-
-
-
                                 From Bactra travelers went northwards via Serags or Mehne (present-day Meane), and Dandankan, and reached the key caravan city of Merw
-
-
-
                                 Other travelers approached Merv from a northern route. Coming from Bukhara, after having crossed the Oxus (which was a very difficult affair) and having had a rest in Amul (the remains of which are still visible at the suburbs of modern-day Turkmenabat), they went southwards to Merv through the formidable Karakum Desert.
-
-
-
                                 From Merw, some caravans cut straight across the Kopetdag Mountains on the way to Nishapur in present-day Iran, passing by Abiverd (located between Ashgabat and Merw at the foothills of the Kopetdag Mountains in southern Turkmenistan), which in medieval times became even more prosperous than Nissa (at a similar location but close to present-day Ashgabat).
-
-
-
                                 Others traveled via Dehistan (Misrian) to the Parthian capital of Ctesiphon (in present-day Iraq, and built in 129 BC). From the Iranian plateau travel went down into Mesopotamia via Dura-Europos (in present-day Syria), a city founded on the banks of the Euphrates by the Seleucids in 280 BC, and a flourishing Parthian stronghold in the first century BC.
-
-
-
                                 From Dura caravans went northwest via Palmyra and Aleppo (Syria) to Antiochia and across the mountains and valleys of the western parts of modern-day Turkey all the way to the Mediterranean Sea. In different periods of time different civilizations shaped the image of these vital trade routes. The fortunes of these civilizations rose and fell with the fate of the Silk Road.
-
-
-
                                 So, many centuries have been passed since its decline, but today you have a chance to rediscover the Road, to recreate its atmosphere and perhaps to gain an experience similar to that of the hundreds of thousands of traders who traveled along the Great Silk Road since ancient times.
-
-
-
                                 If you are interested in visiting both well-known and less known Silk Road sites, please contact us directly. We can offer a wide variety of itineraries that follow the lesser known, more difficult to reach yet fascinating monuments that are proud reminders of the Silk Road in Turkmenistan.
                             </p>
                         </div>
@@ -305,7 +176,7 @@
                 </div>
                 {{-- History Img --}}
                 <div class="country-geography__img h-full mb-3 md:w-1/2 flex justify-center items-center">
-                    <img class=" md:w-fit md:h-[32rem] object-contain shadow-md shadow-gray-600 rounded" src="{{asset('images/country_about/Turkmenistan-tourism-history.webp')}}" alt="">
+                    <img src="{{asset('images/country_about/owadan-tourism-history.webp')}}" class=" md:w-fit md:h-[32rem] object-contain shadow-md shadow-gray-600 rounded" alt="img_history">
                 </div>
 
             </div>
@@ -319,7 +190,7 @@
 
                 {{-- Cuisine Img --}}
                 <div class="country-geography__img h-full mb-3 md:w-1/2 flex justify-center items-center">
-                    <img class=" md:w-fit md:h-[32rem] object-contain shadow-md shadow-gray-600 rounded" src="{{asset('images/country_about/Turkmenistan-tourism-cuisine.webp')}}" alt="">
+                    <img src="{{asset('images/country_about/owadan-tourism-cuisine.webp')}}" class=" md:w-fit md:h-[32rem] object-contain shadow-md shadow-gray-600 rounded" alt="image_cousine">
                 </div>
 
                 {{-- content --}}
@@ -436,7 +307,7 @@
                 </div>
                 {{-- Traditions. Arts and crafts Img --}}
                 <div class="country-geography__img h-full mb-3 md:w-1/2 flex justify-center items-center">
-                    <img class=" md:w-fit md:h-[32rem] object-contain shadow-md shadow-gray-600 rounded" src="{{asset('images/country_about/Turkmenistan-tourism-arts-drafts.webp')}}" alt="">
+                    <img src="{{asset('images/country_about/owadan-tourism-arts-drafts.webp')}}" class=" md:w-fit md:h-[32rem] object-contain shadow-md shadow-gray-600 rounded" alt="image tradiotion">
                 </div>
 
             </div>
@@ -450,7 +321,7 @@
 
                 {{-- Nature Img --}}
                 <div class="country-geography__img h-full mb-3 md:w-1/2 flex justify-center items-center">
-                    <img class=" md:w-fit md:h-[32rem] object-contain shadow-md shadow-gray-600 rounded" src="{{asset('images/country_about/Turkmenistan-tourism-nature.webp')}}" alt="">
+                    <img src="{{asset('images/country_about/owadan-tourism-nature.webp')}}" class=" md:w-fit md:h-[32rem] object-contain shadow-md shadow-gray-600 rounded" alt="image Nature">
                 </div>
 
                 {{-- content --}}
@@ -472,103 +343,31 @@
                             <div class="mb-4"></div>
                             <p class=" capitalize tracking-wider text-gray-200 select-none">
                                 Kugitang Nature Reserve is located in the south-western slopes of the Koytendag mountains (the Kugitang range), at the south-western extreme of the Gissar range of the Pamir-Alay mountain system. Generally, it lies at elevations of 900-3139m above sea level, which it reaches at Ayrybaba (the highest peak of Turkmenistan). There are a substantial number of water bodies: karst lakes, freshwater springs and hydrogen sulphate wells. Koytendag is famous for its unique caves and other geological features (marble onyx), as well as its archa forest and species of rare plants and animals such as the blind cave loach which inhabits underground lakes in the karstic caves. Kugitang is also famous for its representing the main periods of Earth development, including the illustration of ancient life, significant geological processes in Earth surface forms development, essential geomorphological and physical-geographical particularities of relief. The site is composed of rocks of the Precambrian, Paleozoic, Mesozoic, and Cainozoic Eras rich with ancient fossils of Molluscs, Brachiopods, and dinosaurs - including a dinosaur footprint trail. At the base of the Koytendag Mountains there are igneous rocks, testament to ancient volcanism, as well as tectonic faults and canyons. The unique geological formations of Koytendag cave complex have no equal in Eurasia for the diversity of geological processes that formed them, as well as for the beauty of their geological phenomena.
-
-
-
                                 Repetek
-
-
-
                                 The Repetek Nature Reserve was founded in 1927 and occupies a territory of more than 35 000 hectares to study unique desert fauna and flora. It is located in the central part of the eastern Karakum. The unique natural ecosystem of Repetek attracted the attention of many scientists and a number of scientific conferences and seminars were held here. The importance of Repetek was recognized by UNESCO and in 1979 Repetek obtained the status of an International Biosphere Reserve. Repetek is a place where we can observe practically all forms of the Karakum’s sandy landscape, which are dune-like, ridge-like, hilly and other possible variations, as well as striking the attention ‘Repetek Sahara’ and groves of white and black saxaul (haloxylon) - a forest without a shade. We call saxaul a tree without leaves. It has leaves, but they are very thin. It helps the saxaul tree to withstand the extremeness of temperature and harsh climate. Repetek is blessed with more than 240 sunny days a year and the temperature of the sandy surface is often 80 degrees Celsius. Turkmen consider saxaul tree the best to make a fire in a tandyr, where they bake the traditional round bread ‘churek’. Other interesting trees in the Repetek are silver acacia, weeping willow. The Repetek Nature Reserve is home to an amazingly diverse array of fauna. There are 300 different species of beetles, 160 species of butterflies, spiders. The venom of the Karakurt spider is 8-9 times stronger than that of cobra and its bite is much more dangerous than scorpion, phalanx and tarantula. The ornithology-fauna consists of more than 160 species of birds and among them are saxaul jay, a golden eagle, owl, falcon, buzzard, kestrel etc. Only in Repetek you can observe four different species of sparrow. Repetek is a kingdom of reptiles. There are 30 species of lizards, 9 species of snakes and tortoises. Among mammals are foxes, gazelles, steppe and dune cats, porcupines, jerboas, ground squirrel, jackals.
-
-
-
                                 Syunt Hazardag Nature Reserve
-
-
-
                                 The landscape and environmental conditions of the Syunt Hazardag Nature Reserve are typical of the south-western part of the Kopetdag Mountains, which form the north-western edge of the Turkmen-Khorasan mountain system. The Sumbar river (the right-hand branch of the Etrek river) divides the site into northern and southern parts. The right bank is 300-1,900 m in altitude, consisting of wide ridges and canyon-like gorges. In its upper reaches the river valley is narrow with gallery floodplain forests and in some areas there are scattered orchards and small vegetable gardens. The upper river terraces are arid steppe. The climate is arid and subtropical with long, dry summers with temperatures of 35-45°C. Precipitation mainly occurs from November to April, but heavy showers occur occasionally in summer. This area is known as one of the world centers of wild relatives of cultivated plants - subtropical horticulture crops. Wild progenitors of the woody species pomegranate, fig, apple, walnut, pistachio, pear, dog rose, almonds and cherry are widely distributed here. The flora is also rich in wild relatives of cultivated forms of wheat, barley, rye, oats and other important cereals and legumes. All of them are very important as the historic gene pool for crops. This region was identified by Prof. Nikolai Vavilov as one of the seven "Centers of Origin" of cultivated plants (I - South Asian tropical; II- East Asian; III - South West-Asian; IV - Mediterranean; V - Abyssinia; VI - Central American and VII - Indian, or South American). Central Asia is the motherland for soft wheat, bean, pea, fee, hemp, turnip, carrot, garlic, pear, apricot, apple, fig, and others and is important for the in-situ conservation of these species. Their presence, along with other wild crop relatives makes this reserve one of the world's natural nurseries of horticulture crops. The nature reserve holds globally and near threatened mammals such as the Persian Leopard, Turkestan Lynx, Striped Hyena, Turkmen Wild Goat, Afghan Urial (steppe sheep), Central Asian Otter and Masked Mouse-tailed Dormouse.
-
-
-
                                 Kaplankyr State Nature Reserve
-
-
-
                                 The Kaplankyr Nature Reserve is located on the Kaplankyr Plateau, bordering the Ustyurt Plateau, in the northwestern part of Dashoguz Velayat. It covers some 2822 km² in total. It was established in 1979 for the protection and resurrection of indigenous flora and fauna in this region. The Reserve counts approximately 210 warm days per year, and less than 100 mm rainfall.
-
                                 26 species of mammals, 147 species of birds, and 918 species of higher plants have been recorded in the Kaplankyr reserve. Protected rare species of animals found in the reserve include the Central Asian gazelle, the Ustyurt mountain sheep, as well as substantial populations of saiga antelopes that migrate here from Karakalpakstan in the winter. Plants include the Khiva thistle, Turkmen tulip, Antonia's gypsophila, Karelin sand acacia, and 55 other endemic species.
-
                                 The reserve also incorporates two sanctuaries. The Sarykamysh Sanctuary, which was established in 1980 as a lake-coastal ecosystem for the protection of the beaches of the Sarykamysh Lake, flying-swimming birds, and as lambing place for gazelles. And the Shasenem Sanctuary which was established in 1984 for stony desert preservation and for the breeding and settling of Kulans (brought over here from Badhyz Nature reserve in the 1980s).
-
                                 Hazar Nature Reserve
-
-
-
                                 The reserve consists of areas on the south-east coast of the Caspian Sea and covers Turkmenbashi, Balkhan, North Cheleken and Mikhailov bays, which range from relatively deep to shallow. They are bordered by sandy and shelly spits and there are several islands, which are overgrown with halophytes and have coastal marshes. The largest of them is Dagada, which is 120 ha in area.
-
-
-
                                 Five dominant aquatic plant species at the site - eelgrass, tassel-weed, pondweeds and Arabis - occur on the sandy soils and at depths to 4-5 m. There is a high diversity of algae (macrophytes) in the bays consisting of green algae (28 species), red algae (11 species) and kelp or brown algae (one species), which accumulate along the coast and at depths to 6m. Hundreds of species of microscopic algae can be found in the plankton and benthos.
-
-
-
                                 The Hazar State Nature Reserve was previously (1968-1994) known as Krasnovodskiy State Nature Reserve. In 1994 a large island in the Caspian Sea - Ogurchinskiy Sanctuary was included in the Reserve. The total area of the Hazar State Nature Reserve is 268 037 ha.
-
-
-
                                 The condition of the site as a wetland and the dynamics of bird numbers depend on processes linked to changes in the level of the Caspian Sea. Over the last 10-15 years the area of the wetland has increased significantly.
-
-
-
                                 The global value of the reserve lies in the fact that its coastal waters and shores are a feeding and staging point during migration, and an over-wintering site for millions of waterfowl and water birds from a whole number of countries from Eurasia and Africa. The Central-Asian and Eastern-African migratory ways merge in the Turkmen part of the Caspian Sea, as a result of which the Reserve has a rich number of migratory and wintering birds.
-
-
-
                                 The site qualifies as an Important Bird Area (IBA) and is located on one of the most important migratory flyways for water birds breeding in western Siberia, Kazakhstan and other regions of Central Asia, and provides a valuable stopover and wintering site.
-
-
-
                                 In the 20th Century it was estimated that about 5 000 000-8 000 000 water birds passed along the eastern coast of the Caspian Sea on migration, and up to 800 000 birds wintered in the site. Between 1971 and 2005, the numbers of waterfowl (geese, swans, ducks and Common Coot) were recorded at the site. The dominant species are Common Coot (as many as 48 000), Common Teal (up to 27 000), Mallard (up to 21 000), Red-crested Pochard (up to 50 000), Common Pochard (up to 33 000), Tufted Duck (up to 20 000) and in some years, also Mute Swan and Whooper Swan. More than 25 000 Greater Flamingo (Phoenicopterus roseus) can occur on migration and in winter. A total of 296 species has been recorded, including 138 water bird species.
-
-
-
                                 Several endemic and rare (listed in the IUCN Red List, see threat status in brackets) species occur in the site including the Caspian seal and several sturgeons.
-
-
-
                                 Caspian Sea
-
-
-
                                 The Caspian Sea is the largest enclosed body of water on Earth by area, variously classed as the world's largest lake or a full-fledged sea. Like the Black Sea, it is a remnant of the ancient Parathetys Sea. It became landlocked about 5.5 million years ago due to a tectonic uplift and a fall in sea levels. Over 130 rivers provide inflow to the Caspian, with the Volga and Ural Rivers being the largest. It has a salinity of approximately 1.2 %, about one third of most seawater. The only outflow of water is through condensation. The water level is currently measured to be 28 meters below sea level. Several salt marshes can be found along the coastline, such as the Karabogaz Gulf and lakes such as at Mollagara in Turkmenistan. Numerous kinds of sturgeons (for caviar), trout, white fish and the Caspian seal call the Caspian home.
-
-
-
                                 To experience the natural beauty of some of the regions mentioned here, you will need to use four-wheel drive transport, be prepared to eat basic meals, stay in tents or basic housing conditions, and spend considerable time traveling on arduous dirt roads and mountain tracks. Furthermore, permits to access the reserves will have to be requested months in advance, and are not always granted.
-
-
-
                                 Karakum Desert
-
-
-
                                 Its area is nearly 350.000 sq. km, which is about 79 per cent of Turkmenistan’s territory. The desert is bordered in the north-west by the Ustyurt plateau, on the north- east by the Amu-Darya, on the south by the Murghab River oasis and on the west it nearly reaches the Caspian Sea. The Karakum desert is divided into three parts: Low (Central), Zunguz (Northern) and Southeast. The desert is rich not only in oil and gas but other mineral resources as well. A wide range of grey mounts dominate the landscape along the boundaries of the Zunguz Karakum. Those mounts hold deposits of sulphur. From the outside they are covered with a flint crust.
-
-
-
                                 The landscape of the Karakum is very interesting. Only part of its territory is covered with sand. In the east there are ‘barkhans’ - mounts of loose sand of 15 to 35 m high. There are flat areas of broad expanses (takyrs) of clay soil. In contrast to sands ‘takyrs’ can keep moisture created by rains on a level of 25-30 m deep. However, in May moister reserves in the takyrs finish. So, ‘takyrs’ are called lifeless. Nothing is growing on it. The sand can keep winter moister and spring rains on the level of one meter deep. Desert acacia and poplar, white and black saksaul are growing in such areas. There are also ‘shors’, similar to above but encrusted with salt and relieved by solanaceae along their borders. A typical feature of the Karakum is a number of “old beds”, which may have been either channels of tributaries of the Oxus and other rivers, or depressions which contained salt lakes. Shifting dunes offer a continually changing desert landscape.
-
-
-
                                 Spring in the Karakum Desert is fantastic - it doesn’t look like a desert at this time of a year. For more than two weeks it is covered with green, pink, yellow and red ‘carpets’ of different flowers - bright red poppies, gipecuum, sandy sedge, the bushes of astragalus and kandym.
-
-
-
                                 This desert was recorded in many ancient chronicles, two thousand years ago Herodotus wrote about it. Desert life was quite different in those times. But some things didn’t change: up to today the desert is still the grazing ground for herds of sheep, goats and camels, and generously provides people with karakul pelts, wool, meat and camel’s milk.
-
-
-
                                 If you are interested in such an authentic and rewarding experience, Turkmenistan Tourism can suggest several 4-wheel drive tour extensions to your original program. We have listed some of them in the Highlights section of this website. Contact us directly for more options.
                             </p>
                         </div>
@@ -608,49 +407,16 @@
                             <div class="mb-4"></div>
                             <p class=" capitalize tracking-wider text-gray-200 select-none">
                                 Akhal Teke horses got their name from the Akhal oasis in the center of Turkmenistan, which is historically inhabited by one of the Turkmen tribes – the Teke. Through centuries the Teke were able to keep the purity of their horses, to polish their exterior, develop endless enormous stamina and the ability to withstand the extremeness of temperatures and harsh climate. Akhal Teke horses are notable for their dry constitution and well developed muscles of croup, a much longer neck than other horses, mobile thin ears, very expressive eyes, thin legs with strong sinews, tall and high withers, strong small hoofs and a unique golden-colored coating, possessing a brilliant metallic sheen, outstanding speed and highly developed nervous system.
-
-
-
                                 This ancient breed helped to develop the Arabian, English, Orlov saddle horse, Karabakh, Donski, Persian, Pakistan, Indian and Afghan horses. The stallion Atti, born in 1784, occupies a central place in the history of Turkmen horse-breeding. In 1790 Atti was transported from Istanbul to Prussia, and used to improve horse breeds like the Trachen (Germany), the lonius (Hungary) and a few half-blood breeds in Czechoslovakia, Romania and Yugoslavia.
-
-
-
                                 The origin of Akhal Teke horses stretches back to ancient times. Chinese called them ‘Heavenly horses’ or Divine Horses. Ancient Greek, Roman, Chinese and Arab chronicles mention the desires to obtain one of these superior horses, for example King Cyrus of Persia, Alexander the Great, and various Chinese emperors and Arab rulers.
-
-
-
                                 Akhal Teke horses have been immortalized in Turkmen traditional songs, proverbs and poems. Their intelligence, wisdom and attachment to human beings are all legendary. One Turkmen proverb says, “When you get up in the morning you must greet your father and your horse”. Turkmen horse-breeders (seys) had a special approach to their horses. Each Turkmen kept one horse. They were never herded and Turkmens kept them tethered. They fed them pellets of food that contained a mixture of alfalfa, barley and mutton fat. Historians noted that “The Turkmen do not only nourish tenderly their horses, but also with passion. To treat a horse badly is considered a sin among them. The whole tribe would scorn a person committing such a sin.” For this reason, of all Central Asian peoples, Turkmen are the only ones who never slaughtered a horse for its meat or drank mare’s milk.
-
-
-
                                 After the Bolshevik Revolution the Akhal Teke horses experienced a very difficult period in their history. During collectivization efforts all Akhal Teke horses were registered with the new Soviet government and private ownership of horses was banned.
-
-
-
                                 By the end of the 20th century this ancient and unique horse breed was in danger of extinction. The policy of Saparmurad Turkmenbashi - the first president of independent Turkmenistan, helped to prevent this. In 1986 he issued a decree permitting to keep Akhal Teke horses on private farmsteads.
-
-
-
                                 The Akhal Teke is an excellent sport horse. It is perfect in marathon racing; dressage, breaking in and flat race conquer. In 1935 thirty Turkmen riders with their horses made a very long trek and covered 4,300 km from Ashgabat to Moscow in 84 days. All horses successfully overcame the difficulties of this trek, the major part of which run through the Karakum and other desert terrain. Shortly afterwards the Akhal Teke stallion Zenith set a record by covering 300 km in 19 hours. The Akhal Teke proved itself as an endurance horse. If necessary, the Akhal Teke can stay without food and water for much longer than other horses and could easily endure terrible heat.
-
-
-
                                 In 1960 at the Rome Olympics the Akhal Teke stallion Absent, ridden by Sergei Filatov won a gold medal in dressage and was called ’Horse of the century’. Later at the Mexico Olympics a new rider on Absent became champion in team riding. The whole world admires and applauds the circus ensemble ’Horsemen from sunny Turkmenistan”, which perform on Akhal Teke horses.
-
-
-
                                 Nothing can really compare with the experience of horse riding. Each of us, at least once in our lives, has perhaps dreamt of riding a horse. This dream can easily come true in Turkmenistan, which is justly famous for its elegant horses. Both veteran equestrians and those less experienced will find a good possibility to ride well trained and mannered horses at private stables outside Ashgabat.
-
-
-
                                 Our travel agency can organize a visit to these private stables or offer cross-country horse treks. You’ll ride under the watchful eye of highly qualified instructors and experience the solitude of the Kopetdag Mountains and the Karakum Desert. The peace and beauty of the nature will be one of the highlights of your stay in Turkmenistan.
-
-
-
                                 Contact us for more details on horse riding tours, but also about attending horse races that take place every Sunday during spring and autumn at the National Hippodrome in Ashgabat.
-
-
-
                                 The last week ending on the last Sunday of April has formally been devoted to the famous Turkmen horses. Contact us for exact program details during that week.
                             </p>
                         </div>
@@ -665,7 +431,7 @@
                 </div>
                 {{-- Ahalteke horses Img --}}
                 <div class="country-geography__img h-full mb-3 md:w-1/2 flex justify-center items-center">
-                    <img class=" md:w-fit md:h-[32rem] object-contain shadow-md shadow-gray-600 rounded" src="{{asset('images/country_about/Turkmenistan-tourism-arts-horse.webp')}}" alt="">
+                    <img class=" md:w-fit md:h-[32rem] object-contain shadow-md shadow-gray-600 rounded" src="{{asset('images/country_about/owadan-tourism-arts-horse.webp')}}" alt="">
                 </div>
             </div>
         </section>
@@ -686,7 +452,7 @@
 
             {{-- Card1 --}}
             <div x-data="{ isOpen:false }" class=" w-96 bg-white rounded shadow ">
-                <img class="object-cover object-center w-full h-56" src="{{asset('images/practigal_information/Turkmenistan-tourism-climate.webp')}}" alt="avatar">
+                <img class="object-cover object-center w-full h-56" src="{{asset('images/practigal_information/owadan-tourism-climate.webp')}}" alt="avatar">
                 <div class="flex items-center justify-between px-6 py-3 bg-gray-800">
                     <h1 class="text-lg font-semibold text-white  hover:transition-all">Climate</h1>
                     <button @click="isOpen = true" class="flex  items-center justify-center p-2 bg-indigo-500 hover:bg-indigo-600 rounded-full  transition-all">
@@ -722,7 +488,7 @@
             {{-- Card2 --}}
             <div x-data="{ isOpen:false }" class=" w-96 bg-white rounded shadow ">
 
-                <img class="object-cover object-center w-full h-56" src="{{asset('images/practigal_information/Turkmenistan-tourism-electricity.webp')}}" alt="avatar">
+                <img class="object-cover object-center w-full h-56" src="{{asset('images/practigal_information/owadan-tourism-electricity.webp')}}" alt="avatar">
                 <div class="flex items-center justify-between px-6 py-3 bg-gray-800">
                     <h1 class="text-lg font-semibold text-white  hover:transition-all">Electricity</h1>
                     <button @click="isOpen = true" class="flex  items-center justify-center p-2 bg-indigo-500 hover:bg-indigo-600 rounded-full  transition-all">
@@ -803,7 +569,7 @@
 
             {{-- Card3 Communication --}}
             <div x-data="{ isOpen:false }" class=" w-96 bg-white rounded shadow ">
-                <img class="object-cover object-center w-full h-56" src="{{asset('images/practigal_information/Turkmenistan-tourism-comuniccation.webp')}}" alt="avatar">
+                <img class="object-cover object-center w-full h-56" src="{{asset('images/practigal_information/owadan-tourism-comuniccation.webp')}}" alt="avatar">
                 <div class="flex items-center justify-between px-6 py-3 bg-gray-800">
                     <h1 class="text-lg font-semibold text-white  hover:transition-all">Communication</h1>
                     <button @click="isOpen = true" class="flex  items-center justify-center p-2 bg-indigo-500 hover:bg-indigo-600 rounded-full  transition-all">
@@ -842,7 +608,7 @@
 
             {{-- Card4 Health --}}
             <div x-data="{ isOpen:false }" class=" w-96 bg-white rounded shadow ">
-                <img class="object-cover object-center w-full h-56" src="{{asset('images/practigal_information/Turkmenistan-tourism-health.webp')}}" alt="avatar">
+                <img class="object-cover object-center w-full h-56" src="{{asset('images/practigal_information/owadan-tourism-health.webp')}}" alt="avatar">
                 <div class="flex items-center justify-between px-6 py-3 bg-gray-800">
                     <h1 class="text-lg font-semibold text-white  hover:transition-all">Health</h1>
                     <button @click="isOpen = true" class="flex  items-center justify-center p-2 bg-indigo-500 hover:bg-indigo-600 rounded-full  transition-all">
@@ -882,7 +648,7 @@
 
             {{-- Card5 --}}
             <div x-data="{ isOpen:false }" class=" w-96 bg-white rounded shadow ">
-                <img class="object-cover object-center w-full h-56" src="{{asset('images/practigal_information/Turkmenistan-tourism-currency.webp')}}" alt="avatar">
+                <img class="object-cover object-center w-full h-56" src="{{asset('images/practigal_information/owadan-tourism-currency.webp')}}" alt="avatar">
                 <div class="flex items-center justify-between px-6 py-3 bg-gray-800">
                     <h1 class="text-lg font-semibold text-white  hover:transition-all">Currency</h1>
                     <button @click="isOpen = true" class="flex  items-center justify-center p-2 bg-indigo-500 hover:bg-indigo-600 rounded-full  transition-all">
@@ -922,7 +688,7 @@
 
             {{-- Card6 --}}
             <div x-data="{ isOpen:false }" class=" w-96 bg-white rounded shadow ">
-                <img class="object-cover object-center w-full h-56" src="{{asset('images/practigal_information/Turkmenistan-tourism-safety.webp')}}" alt="avatar">
+                <img class="object-cover object-center w-full h-56" src="{{asset('images/practigal_information/owadan-tourism-safety.webp')}}" alt="avatar">
                 <div class="flex items-center justify-between px-6 py-3 bg-gray-800">
                     <h1 class="text-lg font-semibold text-white  hover:transition-all">Safety</h1>
                     <button @click="isOpen = true" class="flex  items-center justify-center p-2 bg-indigo-500 hover:bg-indigo-600 rounded-full  transition-all">
@@ -962,7 +728,7 @@
 
             {{-- Card7 Holidays--}}
             <div x-data="{ isOpen:false }" class=" w-96 bg-white rounded shadow ">
-                <img class="object-cover object-center w-full h-56" src="{{asset('images/practigal_information/Turkmenistan-tourism-holidays.webp')}}" alt="avatar">
+                <img class="object-cover object-center w-full h-56" src="{{asset('images/practigal_information/owadan-tourism-holidays.webp')}}" alt="avatar">
                 <div class="flex items-center justify-between px-6 py-3 bg-gray-800">
                     <h1 class="text-lg font-semibold text-white  hover:transition-all">Holidays</h1>
                     <button @click="isOpen = true" class="flex  items-center justify-center p-2 bg-indigo-500 hover:bg-indigo-600 rounded-full  transition-all">
@@ -1218,7 +984,7 @@
 
             {{-- Card8 Language--}}
             <div x-data="{ isOpen:false }" class=" w-96 bg-white rounded shadow ">
-                <img class="object-cover object-center w-full h-56" src="{{asset('images/practigal_information/Turkmenistan-tourism-language.webp')}}" alt="avatar">
+                <img class="object-cover object-center w-full h-56" src="{{asset('images/practigal_information/owadan-tourism-language.webp')}}" alt="avatar">
                 <div class="flex items-center justify-between px-6 py-3 bg-gray-800">
                     <h1 class="text-lg font-semibold text-white  hover:transition-all">Language</h1>
                     <button @click="isOpen = true" class="flex  items-center justify-center p-2 bg-indigo-500 hover:bg-indigo-600 rounded-full  transition-all">

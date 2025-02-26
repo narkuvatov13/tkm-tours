@@ -32,7 +32,7 @@
 
 {{-- Content --}}
 
-<main class="container p-10 mt-4">
+<main class="container p-10 mt-4 mx-auto">
     {{-- before-you-go --}}
     <section class="before-you-go">
         <div class="flex flex-col justify-center items-center md:flex-row md:gap-20">

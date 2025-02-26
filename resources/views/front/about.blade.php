@@ -29,7 +29,7 @@
     </header>
 </section>
 
-<main class="container p-10">
+<main class="container p-10 mx-auto">
     {{-- Who Us Are --}}
     <section class="more-about-us bg-[#fff] ">
         <div class="flex flex-col justify-center items-center md:flex-row md:gap-20">

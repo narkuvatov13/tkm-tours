@@ -30,7 +30,7 @@
     </header>
 </section>
 
-<main class="container p-10">
+<main class="container p-10 mx-auto">
 
     {{-- Services --}}
     <section class="services">

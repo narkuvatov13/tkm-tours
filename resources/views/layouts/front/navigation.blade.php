@@ -5,10 +5,11 @@
     <div class="container   px-6 py-4 mx-auto">
         <div class="lg:flex lg:items-center lg:justify-between">
 
-            <div class="flex items-center justify-between">
+            <div class="flex items-center justify-between gap-2">
                 <a href="{{ route('home.index') }}">
                     <img class="w-auto h-6 sm:h-7" src="{{asset('images/Logo.png')}}" alt="">
                 </a>
+                <h1 class="text-gray-200 font-semibold">Thecodenarsoft</h1>
             </div>
 
             <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
@@ -16,20 +17,6 @@
                 {{-- List Items --}}
                 <div class="flex flex-col lg:flex-row lg:items-center lg:mx-8">
 
-                    {{-- Services --}}
-                    {{-- <div class="group relative flex flex-col ">
-                        <div class="flex flex-row items-center px-3 py-2  mt-2 mb-2 lg:mb-0 text-gray-200 transform rounded-md lg:mt-0 hover:bg-gray-700 select-none ">
-                            <a href="#" class="flex flex-col mx-2">
-                                Services
-                            </a>
-                        </div>
-
-                        <div class=" flex flex-col justify-center lg:w-max p-2 rounded-lg lg:group-hover:visible lg:invisible lg:absolute lg:top-10 lg:left-0 bg-gray-600 lg:bg-gray-800 lg:rounded-md">
-                            <a href="#" class="p-2 transition-colors duration-300 transform rounded-md lg:mt-0 text-gray-200 hover:bg-gray-500 ">
-                                Darwaza Yurt Camp
-                            </a>
-                        </div>
-                    </div> --}}
 
                     {{-- Tours --}}
                     <div class="group relative flex flex-col ">
@@ -39,22 +26,6 @@
                                 Tours
                             </a>
                         </div>
-                        {{-- Dropdown Content --}}
-                        {{-- <div class=" flex flex-col justify-center lg:w-max p-2 rounded-lg lg:group-hover:visible lg:invisible lg:absolute lg:top-10 lg:left-0 bg-gray-600 lg:bg-gray-800 lg:rounded-md">
-                            <a href="{{route('custom_tours.index')}}" class="p-2 transition-colors duration-300 transform rounded-md lg:mt-0 text-gray-200 hover:bg-gray-500 ">
-                                Custom Tours
-                            </a>
-                            <a href="{{route('combi_tours.index')}}" class="p-2 transition-colors duration-300 transform rounded-md lg:mt-0 text-gray-200 hover:bg-gray-500 ">
-                                Combi Tours
-                            </a>
-                            <a href="{{route('festival_tours.index')}}" class="p-2 transition-colors duration-300 transform rounded-md lg:mt-0 text-gray-200 hover:bg-gray-500 ">
-                                Festival Tours
-                            </a>
-                            <a href="{{route('fixed_tours.index')}}" class="p-2 transition-colors duration-300 transform rounded-md lg:mt-0 text-gray-200 hover:bg-gray-500 ">
-                                Fixed Departure Tours
-                            </a>
-                        </div> --}}
-
                     </div>
 
                     {{-- Services --}}
@@ -84,8 +55,13 @@
                     </div>
                     {{-- Contact Us --}}
                     <a href="{{route('contact-us.index')}}" class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">Contact Us</a>
-                    {{-- <a href="#" class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">Random Item</a> --}}
-                    {{-- <a href="#" class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">Experts</a> --}}
+                    @auth
+                    <a href="{{ route('admin.index') }}" class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">Admin</a>
+                    @endauth
+                    @guest
+
+                    <a href="{{ route('login') }}" class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">Login</a>
+                    @endguest
                 </div>
             </div>
         </div>

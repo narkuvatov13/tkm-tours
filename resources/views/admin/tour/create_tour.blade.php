@@ -26,10 +26,14 @@
                     <div class="image flex items-center space-x-4 ">
                         <img id="image" class="hidden w-32 h-20 object-contain">
                         <div class="file-name">Select File</div>
+
                     </div>
                     <div class="image-upload">
                         <button type="button" id="upload_btn" class=" pointer-events-auto inline-flex items-center justify-center h-10 px-4 py-2 text-sm font-medium text-white capitalize transition-colors bg-indigo-500 border rounded-md cursor-pointer hover:bg-indigo-600 active:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none">Upload Image</button>
                         <input id="image_upload_input" type="file" name="tour_image" value="{{old('tour_image')}}" class="bg-indigo" hidden>
+                        @error('tour_image')
+                        <span class="text-red-600 text-xs" role="alert"><strong>{{ $message }}</strong></span>
+                        @enderror
                     </div>
 
                 </div>
@@ -116,30 +120,28 @@
     const uploadImageInput = document.querySelector('#image_upload_input');
     const fileName = document.querySelector('.file-name');
     const image = document.querySelector('#image');
-    let regExp= /[0-9a-zA-Z\^\&\'\@\{\}\[\]\,\$\=\!\-\#\(\)\.\%\+\~\_ ]+$/;
+    let regExp = /[0-9a-zA-Z\^\&\'\@\{\}\[\]\,\$\=\!\-\#\(\)\.\%\+\~\_ ]+$/;
 
-    uploadBtn.addEventListener('click', function(){
+    uploadBtn.addEventListener('click', function() {
         uploadImageInput.click();
 
     })
 
-    uploadImageInput.addEventListener("change", function(){
-            image.classList.remove('hidden');
-            const file = this.files[0];
-            if(file){
-                const reader = new FileReader();
-                reader.onload = function(){
+    uploadImageInput.addEventListener("change", function() {
+        image.classList.remove('hidden');
+        const file = this.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function() {
                 const result = reader.result;
                 image.src = result;
             }
             reader.readAsDataURL(file);
-            }
-            if(this.value){
-                let valueStore =this.value.match(regExp);
-                fileName.textContent = valueStore;
-            }
-        });
-
-
+        }
+        if (this.value) {
+            let valueStore = this.value.match(regExp);
+            fileName.textContent = valueStore;
+        }
+    });
 </script>
 @endpush

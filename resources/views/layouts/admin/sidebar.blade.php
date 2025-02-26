@@ -3,7 +3,7 @@
 <sidebar class="flex flex-col px-8 py-4 bg-gray-900 max-h-screen h-screen w-max">
     <header class="flex items-center space-x-3 mb-12 pl-6">
         <img class="h-8 w-8 rounded-full" src="{{asset('images/Logo.png')}}" alt="company-logo">
-        <h1 class="text-gray-200 font-semibold">Company</h1>
+        <h1 class="text-gray-200 font-semibold">Thecodenarsoft</h1>
     </header>
 
     <ul class=" flex flex-col space-y-2">
@@ -48,7 +48,7 @@
         </li>
     </ul>
 
-    <div class="mt-auto logout flex items-center">
+    <div class=" mt-auto logout flex flex-col items-center">
         <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();" class=" flex items-center  rounded-md space-x-4 py-3 pl-4 pr-8 text-center  w-full  cursor-pointer outline-none hover:bg-indigo-600 transition-colors">
             <svg class="w-10 h-6 fill-gray-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                 <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
@@ -61,7 +61,13 @@
                 @csrf
             </form>
         </a>
+        <div class="w-full mt-4">
+            <a class="flex items-center justify-center text-gray-200  tracking-wider py-3 pl-4 pr-8  rounded-md cursor-pointer outline-none hover:bg-indigo-600 transition-colors" href="{{ route('home.index') }}">
+                Home
+            </a>
+        </div>
     </div>
+
 </sidebar>
 
 @endsection

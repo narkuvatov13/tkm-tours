@@ -35,7 +35,7 @@
 
 {{-- Contact Us Content --}}
 
-<main class="container p-10 mt-4">
+<main class="container p-10 mt-4 mx-auto">
 
     <section class="contact-us flex flex-col md:flex-row gap-8 ">
 
