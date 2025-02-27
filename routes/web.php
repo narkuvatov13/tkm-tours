@@ -9,9 +9,7 @@ use Illuminate\Support\Facades\Route;
 // Front Controller
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\HomeController;
-
-
-
+use App\Http\Controllers\ItineraryController;
 // Admin Controller
 use App\Http\Controllers\TourController;
 
@@ -96,7 +94,7 @@ Route::prefix('/admin')->group(function () {
     Route::get('/home', function () {
         $tour_counts = Tour::all()->count();
         return view('admin.home', ['tour_counts' => $tour_counts]);
-    })->middleware('auth')->name('admin.index');
+    })->name('admin.index');
 
 
     // Tours
@@ -108,7 +106,17 @@ Route::prefix('/admin')->group(function () {
         Route::post('/store', [TourController::class, 'store'])->name('tours.store');
         Route::delete('/destroy/{tour_id}', [TourController::class, 'destroy'])->name('tours.destroy');
     });
-});
+
+    //Itinerary
+
+    Route::prefix('itinerary')->group(function () {
+        Route::get('/lists', [ItineraryController::class, 'index'])->name('itinerary.index');
+        Route::get('/create', [ItineraryController::class, 'create'])->name('itinerary.create');
+        Route::post('/store', [ItineraryController::class, 'store'])->name('itinerary.store');
+        Route::get('/edit/{itinerary_id}', [ItineraryController::class, 'edit'])->name('itinerary.edit');
+        Route::put('/update/{itinerary_id}', [ItineraryController::class, 'update'])->name('itinerary.update');
+    });
+})->middleware('auth');
 
 
 

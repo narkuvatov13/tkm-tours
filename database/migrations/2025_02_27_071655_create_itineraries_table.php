@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('itineraries', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('tour_id')->references('id')->on('tours')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreignId('tour_id')->references('id')->on('tours')->onDelete('cascade');
             $table->json('itinerary');
             $table->timestamps();
         });

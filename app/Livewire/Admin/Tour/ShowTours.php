@@ -17,9 +17,7 @@ class ShowTours extends Component
     use WithPagination;
 
     // public $tours;
-    public function mount()
-    {
-    }
+    public function mount() {}
     // Render
     public function render()
     {

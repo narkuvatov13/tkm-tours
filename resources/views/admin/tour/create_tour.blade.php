@@ -90,20 +90,6 @@
                     @enderror
                 </div>
 
-
-                  {{--Tour Number --}}
-                  <div class="mb-4">
-                    <div class="flex justify-between mb-2">
-                        <label for="tour_title" class="text-sm text-gray-800">Title</label>
-                    </div>
-
-                    <input type="number" name="tour_title" value="{{old('tour_title')}}" id="tour_title" placeholder="Tour Title" class=" @error('tour_title') border-red-600 @enderror block w-full px-4 py-2 mt-2  placeholder-gray-400  border border-gray-300  rounded-lg bg-white text-gray-800  focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
-
-                    @error('tour_title')
-                    <span class="text-red-600 text-xs" role="alert"><strong>{{ $message }}</strong></span>
-                    @enderror
-                </div>
-
                 <button type="submit" class="inline-flex items-center justify-center h-10 px-4 py-2 text-sm font-medium text-white capitalize transition-colors bg-indigo-500 border rounded-md hover:bg-indigo-600 active:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none">Create Tour</button>
 
             </div>

@@ -23,4 +23,10 @@ class Tour extends Model
     {
         return $this->belongsTo(User::class, 'user_id', 'id');
     }
+
+
+    public function itinerary()
+    {
+        return $this->hasOne(Itinerary::class, 'tour_id', 'id');
+    }
 }
