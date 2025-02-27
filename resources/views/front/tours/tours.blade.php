@@ -51,7 +51,7 @@
                             <a href="https://www.google.com/maps/place/Dashoguz/@41.827586,59.9370288,15z/data=!4m6!3m5!1s0x41de6896264d2475:0x8314c6ef35c7a218!8m2!3d41.8368737!4d59.9651904!16zL20vMDc1Z2Nw?entry=ttu"
                                 target="__blank">
                                 <h1 class="mx-3 text-lg font-semibold text-white  hover:underline hover:transition-all">
-                                    {{$tour->tour_title}}
+                                    {{$tour->tour_location_title}}
                                 </h1>
                             </a>
                         </div>
@@ -59,7 +59,7 @@
                         <div class="px-6 py-4">
                             <a href="{{route('home.tours.show', $tour->id)}}"
                                 class="text-xl font-semibold text-indigo-500 hover:text-indigo-700 hover:transition-colors">
-                                {{$tour->tour_location_title}}
+                                {{$tour->tour_title}}
                             </a>
                             <p class="py-2 text-gray-600 overflow-hidden">
                                 {{Str::limit($tour->tour_text, 100)}}

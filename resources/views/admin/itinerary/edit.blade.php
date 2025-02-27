@@ -74,8 +74,12 @@
                     <div class="w-full mb-2">
                         <select name="tour" class=" flex text-gray-800 px-4 py-3 w-full rounded-md border  border-gray-300">
                             @foreach (\App\Models\Tour::all() as $tour)
-                                <option value="{{$tour->id}}">{{old('tour_location_title', $tour->tour_location_title) }}
-                                </option>
+                                @if($itinerary->tour_id == $tour->id)
+                                    <option value="{{$tour->id}}" selected>{{$tour->tour_location_title }}</option>
+                                @else
+                                    <option value="{{$tour->id}}">{{old('tour_location_title', $tour->tour_location_title) }}
+                                    </option>
+                                @endif
                             @endforeach
                         </select>
                     </div>

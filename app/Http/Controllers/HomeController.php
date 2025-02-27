@@ -23,7 +23,8 @@ class HomeController extends Controller
     {
 
         $tour = Tour::find($tour_id);
-        $itenary = Itinerary::with('tour')->first();
+        $itenary = Itinerary::with('tour')->where('tour_id', $tour_id)->get();
+        // dd($itenary);
 
         // dd($itenary);
         // dd($itenary->id);
