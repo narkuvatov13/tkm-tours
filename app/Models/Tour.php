@@ -15,6 +15,9 @@ class Tour extends Model
 
     protected $guarded = [];
 
+    protected $casts = [
+        'itinerary' => 'array'
+    ];
 
     public function user()
     {

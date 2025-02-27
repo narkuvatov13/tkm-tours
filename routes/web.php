@@ -37,23 +37,23 @@ Route::get('/', [HomeController::class, 'index'])->name('home.index');
 // Tours
 Route::prefix("/tours")->group(function () {
 
-    Route::get('/show/{id}',[HomeController::class,'show'])->name('home.tours.show');
-    // Route::get('/custom-tours', function () {
-    //     return view('front.tours.custom_tours');
-    // })->name('custom_tours.index');
+    Route::get('/show/{id}', [HomeController::class, 'show'])->name('home.tours.show');
+    Route::get('/custom-tours', function () {
+        return view('front.tours.custom_tours');
+    })->name('custom_tours.index');
 
-    // Route::get('/combi-tours', function () {
-    //     return view('front.tours.combi_tours');
-    // })->name('combi_tours.index');
+    Route::get('/combi-tours', function () {
+        return view('front.tours.combi_tours');
+    })->name('combi_tours.index');
 
-    // Route::get('/festival-tours', function () {
-    //     return view('front.tours.festival_tours');
-    // })->name('festival_tours.index');
+    Route::get('/festival-tours', function () {
+        return view('front.tours.festival_tours');
+    })->name('festival_tours.index');
 
-    // Route::get('/fixed-tours', function () {
-    //     return view('front.tours.fixed_tours');
-    // })->name('fixed_tours.index');
-});
+    Route::get('/fixed-tours', function () {
+        return view('front.tours.fixed_tours');
+    })->name('fixed_tours.index');
+})->name('tours');
 
 
 // About
@@ -95,7 +95,7 @@ Route::get('services', function () {
 Route::prefix('/admin')->group(function () {
     Route::get('/home', function () {
         $tour_counts = Tour::all()->count();
-        return view('admin.home',['tour_counts'=>$tour_counts]);
+        return view('admin.home', ['tour_counts' => $tour_counts]);
     })->middleware('auth')->name('admin.index');
 
 
