@@ -80,7 +80,7 @@
                                     @endforeach
                                 </tbody>
                             </table>
-                            {{-- {{ $tours->links('vendor.livewire.tailwind') }} --}}
+                            {{ $itineraries->links('vendor.livewire.tour-paginate') }}
                             {{-- {{ $tours->links('vendor.livewire.tour-paginate') }} --}}
                         </div>
                     </div>

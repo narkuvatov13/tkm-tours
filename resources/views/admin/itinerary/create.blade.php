@@ -48,7 +48,8 @@
 
                                     <input type="text" name="itinerary_title" value="{{old('tour_location_title')}}"
                                         placeholder="Itinerary Title"
-                                        class="block w-full px-4 py-2 mt-2  placeholder-gray-400  border border-gray-300  rounded-lg bg-white text-gray-800  focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                                        class="block w-full px-4 py-2 mt-2  placeholder-gray-400  border border-gray-300  rounded-lg bg-white text-gray-800  focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                        required />
 
                                     @error('itinerary_title')
                                         <span class="text-red-600 text-xs" role="alert"><strong>{{ $message }}</strong></span>
@@ -65,11 +66,13 @@
 
                                     <input type="text" name="itinerary_paragraph[]" value="{{old('itinerary_paragraph')}}"
                                         placeholder="Itinerary paragraph"
-                                        class=" block w-full px-4 py-2 mt-2  placeholder-gray-400  border border-gray-300  rounded-lg bg-white text-gray-800  focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                                        class=" block w-full px-4 py-2 mt-2  placeholder-gray-400  border border-gray-300  rounded-lg bg-white text-gray-800  focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                        required />
 
-                                    @error('itinerary_paragraph')
+                                    @error('itinerary_paragraph.*')
                                         <span class="text-red-600 text-xs" role="alert"><strong>{{ $message }}</strong></span>
                                     @enderror
+
                                 </div>
 
                             </div>
@@ -131,6 +134,7 @@
             newInput.setAttribute('class',
                 ' block w-full px-4 py-2 mt-2  placeholder-gray-400  border border-gray-300  rounded-lg bg-white text-gray-800  focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
             );
+            newInput.setAttribute('reqired', true);
             container.appendChild(newInput);
 
         });

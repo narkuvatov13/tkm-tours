@@ -36,21 +36,28 @@ Route::get('/', [HomeController::class, 'index'])->name('home.index');
 Route::prefix("/tours")->group(function () {
 
     Route::get('/show/{id}', [HomeController::class, 'show'])->name('home.tours.show');
-    Route::get('/custom-tours', function () {
-        return view('front.tours.custom_tours');
-    })->name('custom_tours.index');
 
-    Route::get('/combi-tours', function () {
-        return view('front.tours.combi_tours');
-    })->name('combi_tours.index');
+    Route::get('/', function () {
+        $tours = Tour::all();
+        return view('front.tours.tours', compact('tours'));
+    })->name('tours');
 
-    Route::get('/festival-tours', function () {
-        return view('front.tours.festival_tours');
-    })->name('festival_tours.index');
 
-    Route::get('/fixed-tours', function () {
-        return view('front.tours.fixed_tours');
-    })->name('fixed_tours.index');
+    // Route::get('/custom-tours', function () {
+    //     return view('front.tours.custom_tours');
+    // })->name('custom_tours.index');
+
+    // Route::get('/combi-tours', function () {
+    //     return view('front.tours.combi_tours');
+    // })->name('combi_tours.index');
+
+    // Route::get('/festival-tours', function () {
+    //     return view('front.tours.festival_tours');
+    // })->name('festival_tours.index');
+
+    // Route::get('/fixed-tours', function () {
+    //     return view('front.tours.fixed_tours');
+    // })->name('fixed_tours.index');
 })->name('tours');
 
 
@@ -73,7 +80,7 @@ Route::get('contact-us', function () {
 })->name('contact-us.index');
 
 
-// Contact Us
+// Services
 Route::get('services', function () {
     return view('front.services');
 })->name('services.index');

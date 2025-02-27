@@ -24,11 +24,11 @@ class ItineraryController extends Controller
 
     public function store(Request $request)
     {
-        // $request->validate([
+        // $validate = $request->validate([
         //     'tour_id' => 'required|integer',
         //     'itinerary_title' => 'required|string|max:255',
-        //     'itinerary_paragraph' => 'required|array',
-        //     'itinerary_paragraph.*' => 'required|array',
+        //     'itinerary_paragraph' => ['array', 'required'],
+        //     'itinerary_paragraph.*' => ['array', 'required'],
         // ]);
 
         // dd($request->all());
