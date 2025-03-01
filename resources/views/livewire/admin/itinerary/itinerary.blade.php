@@ -31,7 +31,7 @@
                                         </th>
                                         <th class="pb-3 text-start min-w-[8rem] pl-8 py-4 border-x-2 border-slate-50">
                                             Itinerary Paragraphs</th>
-                                        <th colspan="2" class="text-center min-w-[6rem] pr-8 py-4 ">ACTION</th>
+                                        <th colspan="2" class="text-center min-w-[6rem] pr-8 py-4 ">ACTION...</th>
                                     </tr>
                                 </thead>
                                 <tbody class="">
