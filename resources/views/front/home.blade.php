@@ -21,7 +21,7 @@
                 <p class="landing-page-img__paragraph max-w-fit w-96 text-sm text-gray-200 mb-6 select-none">
                     Your Perfect Tour In Turkmenistan Starts Here
                 </p>
-                <a href="#"
+                <a href="{{ route('tours') }}"
                     class="px-8 py-4 leading-5 text-white transition-colors duration-300 transform bg-indigo-700 rounded-md hover:bg-indigo-600 focus:outline-none focus:bg-indigo-600 text-lg font-semibold ">Book
                     A Tour</a>
             </div>
