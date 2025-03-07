@@ -1,14 +1,13 @@
 <h1>Required for installation </h1>
-<p>Composer</p>
-<ul>
+    <ul>
     <li>
         Composer
-    <li>
+    </li>
     <li>
         Xampp
-    <li>
+    </li>
     <li>
         Nodejs
-    <li>
+    </li>
 </ul>
 
