@@ -30,7 +30,6 @@
     <li>
         Run php artisan serve to start the project at http://localhost:8000
     </li>
-    <li>
 </ol>
 <h5>Frontend</h5>
 <ol>
