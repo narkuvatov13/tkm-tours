@@ -1,5 +1,5 @@
 <h1>Required for installation </h1>
-<ol>
+<ul>
     <li>
         Composer
     <li>
@@ -9,5 +9,5 @@
     <li>
         Nodejs
     <li>
-</ol>
+</ul>
 
