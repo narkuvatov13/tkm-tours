@@ -123,8 +123,8 @@ Route::prefix('/admin')->group(function () {
         Route::get('/edit/{itinerary_id}', [ItineraryController::class, 'edit'])->name('itinerary.edit');
         Route::put('/update/{itinerary_id}', [ItineraryController::class, 'update'])->name('itinerary.update');
     });
-})->middleware('auth');
-
+});
+// ->middleware('auth');
 
 
 Route::get('test', function () {
