@@ -43,6 +43,15 @@
 <h1>License</h1>
 <p>The project is open-sourced software licensed under the <a href="https://opensource.org/license/MIT" target="_blank">MIT license.</a></p>
 
+<h1>Project About</h1>
+<p>This project is designed to promote tourism in Turkmenistan and help travelers easily plan their trips. The website serves as a tour guide and booking platform, allowing users to explore the most popular destinations, get detailed information about tours</p>
+
+<h5>Key Features:</h5>
+<ul>
+    <li>Tour Guide: A comprehensive resource covering Turkmenistan’s historical, cultural, and natural attractions.</li>
+    <li>Mobile-Friendly Design: A modern and responsive interface for seamless access on any device.</li>
+</ul>
+
 <h1>Project Images</h1>
 <img src="https://github.com/narkuvatov13/tkm-tours/blob/main/public/images/tours_project_images/tours_home_page.png" width="400">
 <img src="https://github.com/narkuvatov13/tkm-tours/blob/main/public/images/tours_project_images/contact_us.png" width="400">
