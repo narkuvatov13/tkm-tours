@@ -40,8 +40,6 @@
         npm run dev
     </li>        
 </ol>
-<h1>License</h1>
-<p>The project is open-sourced software licensed under the <a href="https://opensource.org/license/MIT" target="_blank">MIT license.</a></p>
 
 <h1>Project About</h1>
 <p>This project is designed to promote tourism in Turkmenistan and help travelers easily plan their trips. The website serves as a tour guide and booking platform, allowing users to explore the most popular destinations, get detailed information about tours</p>
@@ -68,3 +66,7 @@
 <img src="https://github.com/narkuvatov13/tkm-tours/blob/main/public/images/tours_project_images/tours_tour_create.png" width="400">
 <img src="https://github.com/narkuvatov13/tkm-tours/blob/main/public/images/tours_project_images/tours_home_page.png" width="400">
 <img src="https://github.com/narkuvatov13/tkm-tours/blob/main/public/images/tours_project_images/tours_tours_page.png" width="400">
+
+
+<h1>License</h1>
+<p>The project is open-sourced software licensed under the <a href="https://opensource.org/license/MIT" target="_blank">MIT license.</a></p>
